@@ -51,7 +51,7 @@ function PostContentPage() {
       author.length !== 0 && Object.keys(post).length !== 0
     ) {
       return (
-          <CardDetail postInfo={post} categoryInfo={category} authorInfo={author} />
+          <CardDetail key={post.id} postInfo={post} categoryInfo={category} authorInfo={author} />
       );
     } else {
       return <div></div>;

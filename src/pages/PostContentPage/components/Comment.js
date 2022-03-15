@@ -48,10 +48,11 @@ function Comment() {
     })
     console.log(response)
     
-        setComment('')
+        setCommentMessage('')
         setCommentName('')
         if(alert('Comment Success')){}
         else{window.location.reload()}; 
+        
 };
 
 
