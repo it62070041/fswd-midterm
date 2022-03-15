@@ -13,7 +13,7 @@ function CardContent({ postInfo, categoryInfo, authorInfo }) {
 
   return (
     <div>
-      <Card style={{ width: "26rem", height: "30rem", backgroundColor: '#f7f2e7', marginTop: 40, borderRadius: 15, border: "5px solid #fff" , textAlign: 'center'}} >
+      <Card style={{ width: "26rem", height: "32rem", backgroundColor: '#f7f2e7', marginTop: 40, borderRadius: 15, border: "5px solid #fff" , textAlign: 'center'}} >
       <Card.Body style={{ marginTop: 10}}>
             <Image
               src={auImg[0].avatar_urls[96]}

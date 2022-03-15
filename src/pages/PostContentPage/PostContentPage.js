@@ -48,7 +48,7 @@ function PostContentPage() {
   function GetCard() {
     if (
       category.length !== 0 &&
-      author.length !== 0
+      author.length !== 0 && Object.keys(post).length !== 0
     ) {
       return (
           <CardDetail postInfo={post} categoryInfo={category} authorInfo={author} />
