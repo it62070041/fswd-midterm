@@ -29,7 +29,6 @@ function CardAuthor({ postInfo, categoryInfo, authorInfo }) {
                 <h3 style={{ marginTop: 20 }}>{author.name}</h3>
                 <h6 style={{ marginTop: 10, color: '#a6a6a6' }}>{author.slug}</h6>
                 <Card.Text style={{ marginTop: 20 }}> {postInfo?.filter(post => post.author === author.id).length} Posts</Card.Text>
-                <Button style={{ color: '#fff', backgroundColor: '#867bbd', border: 'none' }} onClick={() => console.log(author)}>View {author.name} Posts</Button>
               </Card.Body>
             </Card> 
     )}
